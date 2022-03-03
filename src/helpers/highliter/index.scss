@@ -1,0 +1,91 @@
+.highlited {
+  display: block;
+  -webkit-animation: borderOpacity 1s ease-out infinite;
+  -moz-animation: borderOpacity 1s ease-out infinite;
+  -o-animation: borderOpacity 1s ease-out infinite;
+  animation: borderOpacity 1s ease-out infinite;
+}
+
+@-webkit-keyframes borderOpacity {
+  0% {
+    border: 3px groove rgba(255, 255, 0, 0);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    border-radius: 6px;
+  }
+  50% {
+    border: 3px groove rgba(255, 255, 0, 1);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    border-radius: 6px;
+  }
+  100% {
+    border: 3px groove rgba(255, 255, 0, 0);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    border-radius: 6px;
+  }
+}
+
+@-moz-keyframes borderOpacity {
+  0% {
+    border: 3px groove rgba(255, 255, 0, 0);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    border-radius: 6px;
+  }
+  50% {
+    border: 3px groove rgba(255, 255, 0, 1);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    border-radius: 6px;
+  }
+  100% {
+    border: 3px groove rgba(255, 255, 0, 0);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    border-radius: 6px;
+  }
+}
+
+@-o-keyframes borderOpacity {
+  0% {
+    border: 3px groove rgba(255, 255, 0, 0);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    border-radius: 6px;
+  }
+  50% {
+    border: 3px groove rgba(255, 255, 0, 1);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    border-radius: 6px;
+  }
+  100% {
+    border: 3px groove rgba(255, 255, 0, 0);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    border-radius: 6px;
+  }
+}
+
+@keyframes borderOpacity {
+  0% {
+    border: 3px groove rgba(255, 255, 0, 0);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    border-radius: 6px;
+  }
+  50% {
+    border: 3px groove rgba(255, 255, 0, 1);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    border-radius: 6px;
+  }
+  100% {
+    border: 3px groove rgba(255, 255, 0, 0);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    border-radius: 6px;
+  }
+}

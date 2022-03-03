@@ -1,0 +1,57 @@
+.browser {
+  .chat-background {
+    background: #1c1c1c url(/images/background2_inverted.png);
+  }
+  // border: 5px solid #303443;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  .top-bar {
+    display: flex;
+    background-color: #303443;
+
+    .address-bar {
+      padding: 15px 15px 10px 15px;
+      width: 1300px;
+
+      input {
+        background-color: #181a21;
+        color: white;
+        border: none;
+        line-height: 140%;
+        font-size: 1.3rem;
+        padding-left: 20px;
+        border-radius: 3px;
+        width: 100%;
+      }
+    }
+
+    .metamask-logo-container {
+      position: relative;
+      margin-left: auto;
+      margin-right: 50px;
+
+      .metamask-container {
+        top: 50px;
+        right: 0px;
+        position: absolute;
+      }
+
+      .metamask-logo {
+        -ms-transform: translateY(50%);
+        transform: translateY(50%);
+        height: 30px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .content {
+    overflow-y: auto;
+    width: 100%;
+    height: 100%;
+  }
+}

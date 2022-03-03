@@ -1,0 +1,53 @@
+.asset-list-item {
+  padding: 24px 16px;
+  display: flex;
+  border-bottom: 1px solid #e5e5e5;
+  border-top: 1px solid #e5e5e5;
+
+  &__icon {
+    margin: 0 16px 0 0;
+    grid-area: icon;
+    align-self: center;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    font-size: 1rem;
+    font-family: Euclid, Roboto, Helvetica, Arial, sans-serif;
+    line-height: 140%;
+    font-style: normal;
+    font-weight: normal;
+    grid-area: head;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  &__right {
+    align-self: center;
+    color: $Grey-500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: right;
+    text-align: right;
+    align-items: flex-end;
+    overflow: hidden;
+    white-space: nowrap;
+    grid-area: right;
+    text-align: right;
+    align-items: flex-end;
+    overflow: hidden;
+    white-space: nowrap;
+    align-self: center;
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  &__chevron-right {
+    color: $Grey-500;
+  }
+}

@@ -1,0 +1,25 @@
+@import "./seed-creation/index";
+@import "./setup-quiz/index";
+
+.setup-course {
+  height: 100%;
+  &-explainer {
+    padding: 25px;
+    overflow-y: auto;
+    height: 100%;
+  }
+
+  .seed-creation-container {
+    width: 100%;
+  }
+
+  .course-guide {
+    height: 100%;
+
+    .scrollable {
+      overflow-x: hidden;
+      overflow-y: auto;
+      height: 100%; 
+    }
+  }
+}

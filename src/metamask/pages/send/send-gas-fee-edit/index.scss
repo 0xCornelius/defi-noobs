@@ -1,0 +1,52 @@
+.send-gas-fee-edit {
+  padding: 0 20px 20px 20px;
+  .gas-cost {
+    color: black;
+    line-height: 140%;
+
+    .estimated-cost {
+      font-size: 2rem;
+      margin: 4px 0px 4px 0px;
+    }
+    .max-cost {
+      margin: 4px 0px 4px 0px;
+
+      font-size: 0.875rem;
+      .label {
+        font-weight: bold;
+      }
+      .amount {
+      }
+    }
+  }
+
+  .advanced-options {
+    &-button {
+      display: block;
+      margin: 0 auto;
+      background: transparent;
+      color: #037dd6;
+      font-weight: bold;
+    }
+  }
+  .gas-speed-selector {
+    margin: 20px auto;
+  }
+}
+
+.edit-gas-popover-save-button {
+  width: 100%;
+  .confirm-button {
+    font-size: 0.875rem;
+    line-height: 140%;
+    padding: 0.75rem 1rem;
+    width: 100%;
+    width: 100%;
+    background-color: #037dd6;
+    border-radius: 100px;
+    will-change: box-shadow;
+    transition: box-shadow cubic-bezier(0.6, -0.28, 0.735, 0.045) 200ms;
+    color: white;
+    border: 1px solid #037dd6;
+  }
+}

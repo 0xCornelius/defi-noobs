@@ -1,0 +1,114 @@
+@import "./send-confirmation-header/index";
+@import "./send-confirmation-details/index";
+
+.send-confirmation {
+  overflow-y: auto;
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  .action-summary {
+    border-bottom: 1px solid #d2d8dd;
+    padding: 16px 24px;
+    background-color: #f9fafa;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    .action-row {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 8px;
+
+      .action {
+        font-size: 0.75rem;
+        line-height: 140%;
+        text-transform: uppercase;
+        color: #8c8e94;
+        padding: 3px 8px;
+        border: 1px solid #8c8e94;
+        border-radius: 4px;
+        display: inline-block;
+      }
+    }
+
+    .amount-row {
+      display: flex;
+      align-items: center;
+
+      .amount {
+        font-size: 2.5rem;
+        line-height: 140%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        direction: ltr;
+      }
+    }
+  }
+  &__footer {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    border-top: 1px solid #d2d8dd;
+    flex: 0 0 auto;
+
+    button {
+      font-size: 0.875rem;
+      line-height: 140%;
+      padding: 0.75rem 1rem;
+      width: 100%;
+    }
+
+    .reject-button {
+      border: 1px solid #037dd6;
+      margin-right: 16px;
+      border-radius: 100px;
+      will-change: box-shadow;
+      transition: box-shadow cubic-bezier(0.6, -0.28, 0.735, 0.045) 200ms;
+      background-color: white;
+      color: #037dd6;
+    }
+
+    .confirm-button {
+      background-color: #037dd6;
+      border-radius: 100px;
+      will-change: box-shadow;
+      transition: box-shadow cubic-bezier(0.6, -0.28, 0.735, 0.045) 200ms;
+      color: white;
+      border: 1px solid #037dd6;
+    }
+
+    .confirm-button[disabled] {
+      background-color: #b0d7f2;
+      border-color: #b0d7f2;
+    }
+  }
+
+  .insufficient-funds-error {
+    padding: 0 16px 16px 16px;
+
+    .error-message {
+
+      .alert-icon {
+        margin-right: 8px;
+    flex: 0 0 auto;
+      }
+      font-size: 0.75rem;
+      font-family: Euclid, Roboto, Helvetica, Arial, sans-serif;
+      line-height: 140%;
+      font-style: normal;
+      font-weight: normal;
+      min-height: 32px;
+      border: 1px solid #e88f97;;
+      color: black;
+      background: #fcf2f3;
+      border-radius: 8px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 8px 10px;
+    }
+  }
+}

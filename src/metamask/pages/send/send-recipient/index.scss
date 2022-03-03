@@ -1,0 +1,12 @@
+@import "./recipient-input";
+
+.invalid-dialog {
+    border: 1px solid #e88f97;
+    color: #b92534;
+    background-color: #fcf2f3;
+    margin: 1rem;
+    font-size: 0.75rem;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: left;
+}

@@ -1,0 +1,18 @@
+@import "./metamask/metamask";
+@import "./browser/index";
+@import "./css/base-styles";
+@import "./courses/index";
+@import '~bootstrap/scss/bootstrap.scss';
+@import "./helpers/index";
+
+
+.App {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

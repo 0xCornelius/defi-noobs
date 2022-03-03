@@ -1,0 +1,47 @@
+.seed-creation {
+  width: fit-content;
+  &-container {
+    padding: 25px;
+  }
+  .create-wallet-container {
+    width: 388px;
+    height: 278px;
+  }
+
+  .seed-text {
+    font-size: 1.125rem;
+    line-height: 140%;
+    color: #4d4d4d;
+  }
+
+  .card-description {
+    font-size: 0.875rem;
+    line-height: 140%;
+    color: #7a7a7b;
+  }
+
+  .create-wallet-button {
+    max-width: 221px;
+    font-size: 0.875rem;
+    line-height: 140%;
+    padding: 0.75rem 1rem;
+    width: 100%;
+    background-color: #037dd6;
+    border-radius: 100px;
+    will-change: box-shadow;
+    transition: box-shadow cubic-bezier(0.6, -0.28, 0.735, 0.045) 200ms;
+    color: white;
+    border: 1px solid #037dd6;
+    font-weight: 500;
+  }
+
+  .create-wallet-button[disabled] {
+    background-color: #b0d7f2;
+    border-color: #b0d7f2;
+  }
+
+  .seed-backup-input {
+    height: 80px;
+    width: 386px;
+  }
+}

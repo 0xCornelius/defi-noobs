@@ -1,0 +1,80 @@
+.send-confirmation-header {
+  background-color: white;
+  .edit {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #d2d8dd;
+    padding: 4px 13px 4px 13px;
+    .edit-button {
+      font-size: 1rem;
+      line-height: 140%;
+      color: #2f9ae0;
+      padding-left: 5px;
+      background-color: white;
+    }
+  }
+  .caret-left {
+    background-image: url("/images/caret-left.svg");
+    width: 0.5rem;
+    height: 1rem;
+  }
+
+  .transaction-parties {
+    height: 42px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    flex: 0 0 auto;
+
+    .transaction-direction-arrow {
+      position: absolute;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .arrow-circle {
+        background: white;
+        padding: 5px;
+        border: 1px solid #d2d8dd;
+        border-radius: 20px;
+        height: 32px;
+        width: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .arrow-icon {
+          background-image: url("/images/arrow-right.svg");
+          width: 18px;
+          height: 15px;
+          background-size: cover;
+        }
+      }
+    }
+
+    .transaction-party {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      flex: 1;
+      padding: 0 16px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      border: 1px solid #d8d8d8;
+      cursor: pointer;
+      font-size: 0.75rem;
+      line-height: 140%;
+    }
+
+    .transaction-sender {
+      padding-right: 30px;
+    }
+
+    .transaction-recipient {
+      padding-left: 30px;
+      border-left: 1px solid #d2d8dd;
+    }
+  }
+}

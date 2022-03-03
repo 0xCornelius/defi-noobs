@@ -1,0 +1,18 @@
+.copy-address {
+    cursor: pointer;
+  .address {
+    font-size: 0.75rem;
+    font-family: Euclid, Roboto, Helvetica, Arial, sans-serif;
+    line-height: 140%;
+    font-style: normal;
+    font-weight: normal;
+    color: #989a9b;
+    display: flex;
+    align-items: center;
+    &__copy-icon {
+      height: 13px;
+      display: inline-block;
+      margin-inline-start: 3px;
+    }
+  }
+}

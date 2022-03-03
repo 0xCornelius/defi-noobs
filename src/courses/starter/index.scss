@@ -1,0 +1,32 @@
+.starter-course-container {
+  height:100%;
+
+  .starter-course {
+    width: 900px;
+    height: 100%;
+    padding-bottom: 150px;
+    flex-grow: 1;
+    overflow-y: auto;
+
+    .copy-address {
+      .address {  
+        font-size: 18px;
+        color: #0d6efd;
+
+        &__copy-icon {
+          height: 25px;
+          #copy-icon-path {
+            fill: #0d6efd;
+          }
+        }
+      }
+    }
+
+    .back-to-courses-button {
+      padding: 0.75rem 1rem;
+      border-radius: 100px;
+      will-change: box-shadow;
+      transition: box-shadow cubic-bezier(0.6, -0.28, 0.735, 0.045) 200ms;
+    }
+  }
+}

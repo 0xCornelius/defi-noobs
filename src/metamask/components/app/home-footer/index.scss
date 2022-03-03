@@ -1,0 +1,21 @@
+.home-footer {
+  margin-top: 16px;
+  .grayed-text {
+    color: #6a737d;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    font-size: 0.875rem;
+  }
+
+  .import-token {
+    font-size: 1.125rem;
+    font-family: Euclid, Roboto, Helvetica, Arial, sans-serif;
+    line-height: 140%;
+    font-style: normal;
+    font-weight: normal;
+    color: #037dd6;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 0 5px 16px;
+  }
+}

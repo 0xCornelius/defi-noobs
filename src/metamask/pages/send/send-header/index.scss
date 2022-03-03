@@ -1,0 +1,21 @@
+.send-header {
+  background-color: #f2f3f4;
+  flex: 0 0 auto;
+  flex-flow: column;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  .title {
+    font-size: 1.25rem;
+    line-height: 140%;
+    text-align: center;
+  }
+  .cancel-button {
+    color: #037dd6;
+    line-height: 140%;
+    font-size: 0.75rem;
+    background-color: transparent;
+    position: absolute;
+    right: 1rem;
+  }
+}

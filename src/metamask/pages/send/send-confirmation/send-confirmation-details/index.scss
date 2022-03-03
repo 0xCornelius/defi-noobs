@@ -1,0 +1,83 @@
+.send-confirmation-details {
+  box-sizing: border-box;
+  padding: 0 24px;
+  position: relative;
+  height: 100%;
+  .edit {
+    text-align: end;
+    padding-top: 20px;
+
+    .edit-button {
+      font-size: 0.75rem;
+      line-height: 140%;
+      color: #037dd6;
+      background: transparent;
+      border: 0;
+      -webkit-padding-end: 0;
+      padding-inline-end: 0;
+      text-transform: uppercase;
+    }
+  }
+
+  .details-rows {
+    margin-top: 10px;
+
+    .detail-item:last-child {
+      padding-bottom: 0;
+      border-bottom: 0;
+    }
+
+    .detail-item {
+      color: #6a737d;
+      padding: 20px 0;
+      border-bottom: 1px solid #bbc0c5;
+
+      .detail-item-row {
+        margin: 4px 0px;
+        display: flex;
+        justify-content: space-between;
+        grid-gap: 5px;
+
+        .detail-item-value {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: end;
+
+          .max-fee-value {
+            display: flex;
+            color: #6a737d;
+            font-size: 0.75rem;
+            line-height: 140%;
+          }
+        }
+
+        .detail-item-label,
+        .estimated-gas-amount,
+        .total-amount {
+          color: black;
+          font-size: 0.875rem;
+          line-height: 140%;
+        }
+
+        .detail-item-label {
+          &-small {
+            font-size: 0.75rem;
+            line-height: 140%;
+            color: #6a737d;
+          }
+        }
+      }
+    }
+
+    .detail-item:first-child {
+      padding-top: 0;
+    }
+    .detail-item:first-of-type {
+      padding-top: 0;
+    }
+  }
+}
+
+.bold {
+  font-weight: bold;
+}

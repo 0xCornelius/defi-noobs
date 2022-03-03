@@ -1,0 +1,11 @@
+@import './send-header/index';
+@import './send-recipient/index';
+@import './send-content/index';
+@import './send-confirmation/index';
+@import './send-gas-fee-edit/index';
+
+.page-container {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
